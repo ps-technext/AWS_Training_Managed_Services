@@ -6,18 +6,6 @@
 
 ![Why AWS MCP](./assets/why_aws_mcp.png)
 
-
-## Training Format
-
-```text
-8 Days
-1 Hour / Day
-10 min Concept
-15 min Demo
-30 min Hands-on
-5 min Review
-```
-
 ## Tool Stack
 
 ```text
