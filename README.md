@@ -37,14 +37,14 @@ Kiro IDE
 
 | Day | Topic | File |
 |---|---|---|
-| 1 | Windows Setup + Kiro + uv + npx + MCP | [Day 1](./Day_01_Windows_Setup_Kiro_uv_npx_MCP.md) |
-| 2 | AWS Documentation / Knowledge | [Day 2](./Day_02_AWS_Documentation_Knowledge.md) |
-| 3 | AWS Inventory + Overview | [Day 3](./Day_03_AWS_Inventory_Overview.md) |
-| 4 | CloudWatch Troubleshooting | [Day 4](./Day_04_CloudWatch_Troubleshooting.md) |
-| 5 | CloudTrail + IAM Audit | [Day 5](./Day_05_CloudTrail_IAM_Audit.md) |
-| 6 | AWS Network + draw.io | [Day 6](./Day_06_AWS_Network_DrawIO.md) |
-| 7 | AWS Cost + Pricing Calculator | [Day 7](./Day_07_AWS_Cost_Pricing_Calculator.md) |
-| 8 | Full Incident Investigation | [Day 8](./Day_08_Full_Incident_Investigation.md) |
+| 1 | Windows Setup + Kiro + uv + npx + MCP | [1](./01_Windows_Setup_Kiro_uv_npx_MCP.md) |
+| 2 | AWS Documentation / Knowledge | [2](./02_AWS_Documentation_Knowledge.md) |
+| 3 | AWS Inventory + Overview | [3](./03_AWS_Inventory_Overview.md) |
+| 4 | CloudWatch Troubleshooting | [4](./04_CloudWatch_Troubleshooting.md) |
+| 5 | CloudTrail + IAM Audit | [5](./05_CloudTrail_IAM_Audit.md) |
+| 6 | AWS Network + draw.io | [6](./06_AWS_Network_DrawIO.md) |
+| 7 | AWS Cost + Pricing Calculator | [7](./07_AWS_Cost_Pricing_Calculator.md) |
+| 8 | Full Incident Investigation | [8](./08_Full_Incident_Investigation.md) |
 
 MCP Configuration:
 
