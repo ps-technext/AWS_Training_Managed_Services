@@ -1,0 +1,106 @@
+{
+  "mcpServers": {
+    "aws-mcp": {
+      "command": "uvx",
+      "timeout": 100000,
+      "args": [
+        "mcp-proxy-for-aws-cli==1.6.4",
+        "https://aws-mcp.us-east-1.api.aws/mcp",
+        "--profile",
+        "customer-a-readonly",
+        "--metadata",
+        "AWS_REGION=ap-southeast-1",
+        "--read-only"
+      ],
+      "env": {
+        "AWS_PROFILE": "customer-a-readonly",
+        "AWS_REGION": "ap-southeast-1"
+      },
+      "disabled": false,
+      "autoApprove": []
+    },
+    "cloudwatch": {
+      "command": "uvx",
+      "args": [
+        "awslabs.cloudwatch-mcp-server@latest"
+      ],
+      "env": {
+        "AWS_PROFILE": "customer-a-readonly",
+        "AWS_REGION": "ap-southeast-1",
+        "FASTMCP_LOG_LEVEL": "ERROR"
+      },
+      "disabled": false,
+      "autoApprove": []
+    },
+    "cloudtrail": {
+      "command": "uvx",
+      "args": [
+        "awslabs.cloudtrail-mcp-server@latest"
+      ],
+      "env": {
+        "AWS_PROFILE": "customer-a-readonly",
+        "AWS_REGION": "ap-southeast-1",
+        "FASTMCP_LOG_LEVEL": "ERROR"
+      },
+      "disabled": false,
+      "autoApprove": []
+    },
+    "aws-network": {
+      "command": "uvx",
+      "args": [
+        "awslabs.aws-network-mcp-server@latest"
+      ],
+      "env": {
+        "AWS_PROFILE": "customer-a-readonly",
+        "AWS_REGION": "ap-southeast-1",
+        "FASTMCP_LOG_LEVEL": "ERROR"
+      },
+      "disabled": false,
+      "autoApprove": []
+    },
+    "billing-cost-management": {
+      "command": "uvx",
+      "args": [
+        "awslabs.billing-cost-management-mcp-server@latest"
+      ],
+      "env": {
+        "AWS_PROFILE": "customer-a-readonly",
+        "AWS_REGION": "us-east-1",
+        "FASTMCP_LOG_LEVEL": "ERROR"
+      },
+      "disabled": false,
+      "autoApprove": []
+    },
+    "aws-pricing": {
+      "command": "uvx",
+      "args": [
+        "awslabs.aws-pricing-mcp-server@latest"
+      ],
+      "env": {
+        "AWS_PROFILE": "customer-a-readonly",
+        "AWS_REGION": "us-east-1",
+        "FASTMCP_LOG_LEVEL": "ERROR"
+      },
+      "disabled": false,
+      "autoApprove": []
+    },
+    "aws-pricing-calculator": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "sample-aws-pricing-calculator-mcp@latest"
+      ],
+      "disabled": false,
+      "autoApprove": []
+    },
+    "drawio": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@drawio/mcp"
+      ],
+      "disabled": false,
+      "autoApprove": []
+    }
+  }
+}
