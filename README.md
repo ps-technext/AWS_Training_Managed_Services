@@ -221,28 +221,6 @@ Do not make changes.
 
 ---
 
-# Recommended Learning Flow
-
-```text
-Day 1  Setup
-   ↓
-Day 2  Knowledge
-   ↓
-Day 3  Inventory
-   ↓
-Day 4  Operations
-   ↓
-Day 5  Audit
-   ↓
-Day 6  Network + Diagram
-   ↓
-Day 7  Cost + Pricing Calculator
-   ↓
-Day 8  Full Incident Workflow
-```
-
----
-
 # References
 
 - AWS Labs MCP: https://github.com/awslabs/mcp
