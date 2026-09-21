@@ -20,10 +20,6 @@
 
 AWS MCP ช่วยให้ Kiro / AI Assistant เข้าถึงข้อมูลและเครื่องมือ AWS ผ่านช่องทางที่เป็นระบบ แทนการให้ Engineer copy command หรือเปิดหลาย Console เอง
 
-### MCP ช่วยแก้ปัญหาอะไร
-
-![AWS MCP Problem and Solution](./assets/aws_mcp_problem_solution.png)
-
 ประเด็นหลักที่ใช้ในหลักสูตรนี้:
 
 - แยก Customer ด้วย Workspace + AWS Profile
