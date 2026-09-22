@@ -4,20 +4,29 @@
       "command": "uvx",
       "timeout": 100000,
       "args": [
-        "mcp-proxy-for-aws-cli==1.6.4",
+        "mcp-proxy-for-aws-cli@1.7.0",
         "https://aws-mcp.us-east-1.api.aws/mcp",
         "--profile",
-        "customer-a-readonly",
+        "example",
         "--metadata",
-        "AWS_REGION=ap-southeast-1",
+        "AWS_REGION=us-east-1",
         "--read-only"
       ],
       "env": {
-        "AWS_PROFILE": "customer-a-readonly",
-        "AWS_REGION": "ap-southeast-1"
+        "AWS_PROFILE": "example",
+        "AWS_REGION": "ap-southeast-7"
       },
       "disabled": false,
       "autoApprove": []
+    },
+      "aws-knowledge-mcp": {
+      "url": "https://knowledge-mcp.global.api.aws",
+      "disabled": false,
+      "autoApprove": [
+        "aws___search_documentation",
+        "aws___get_regional_availability",
+        "aws___read_documentation"
+      ]
     },
     "cloudwatch": {
       "command": "uvx",
@@ -25,8 +34,8 @@
         "awslabs.cloudwatch-mcp-server@latest"
       ],
       "env": {
-        "AWS_PROFILE": "customer-a-readonly",
-        "AWS_REGION": "ap-southeast-1",
+        "AWS_PROFILE": "example",
+        "AWS_REGION": "ap-southeast-7",
         "FASTMCP_LOG_LEVEL": "ERROR"
       },
       "disabled": false,
@@ -38,8 +47,8 @@
         "awslabs.cloudtrail-mcp-server@latest"
       ],
       "env": {
-        "AWS_PROFILE": "customer-a-readonly",
-        "AWS_REGION": "ap-southeast-1",
+        "AWS_PROFILE": "example",
+        "AWS_REGION": "ap-southeast-7",
         "FASTMCP_LOG_LEVEL": "ERROR"
       },
       "disabled": false,
@@ -51,8 +60,8 @@
         "awslabs.aws-network-mcp-server@latest"
       ],
       "env": {
-        "AWS_PROFILE": "customer-a-readonly",
-        "AWS_REGION": "ap-southeast-1",
+        "AWS_PROFILE": "example",
+        "AWS_REGION": "ap-southeast-7",
         "FASTMCP_LOG_LEVEL": "ERROR"
       },
       "disabled": false,
@@ -64,7 +73,7 @@
         "awslabs.billing-cost-management-mcp-server@latest"
       ],
       "env": {
-        "AWS_PROFILE": "customer-a-readonly",
+        "AWS_PROFILE": "example",
         "AWS_REGION": "us-east-1",
         "FASTMCP_LOG_LEVEL": "ERROR"
       },
@@ -77,7 +86,7 @@
         "awslabs.aws-pricing-mcp-server@latest"
       ],
       "env": {
-        "AWS_PROFILE": "customer-a-readonly",
+        "AWS_PROFILE": "example",
         "AWS_REGION": "us-east-1",
         "FASTMCP_LOG_LEVEL": "ERROR"
       },
